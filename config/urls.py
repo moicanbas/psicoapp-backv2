@@ -20,6 +20,7 @@ urlpatterns = [
     path('api/users/', include('apps.users.urls')),
     path('api/patients/', include('apps.patients.urls')),
     path('api/medical_records/', include('apps.medicalrecords.urls')),
+    path('api/masters/', include('apps.masters.urls')),
 
     # Password reset views (puedes ajustar los paths si deseas)
     path('api/password_reset/', PasswordResetView.as_view(), name='password_reset'),

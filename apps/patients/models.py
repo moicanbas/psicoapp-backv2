@@ -120,7 +120,7 @@ class Patient(BaseModel):
     religion = models.CharField(max_length=100, null=True, blank=True)
 
     def __str__(self):
-        return f"{self.identification_number} - {self.name} {self.last_name}"
+        return f"{self.identification_number} - {self.name} {self.last_name} | user: {self.user}"
 
     class Meta:
         verbose_name = "Patient"

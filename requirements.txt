@@ -4,4 +4,8 @@ djangorestframework>=3.14
 djangorestframework-simplejwt>=5.3
 drf-spectacular>=0.27.0
 drf_yasg
-django-cors-header==4.7.0
+django-cors-headers==4.7.0
+django-admin-autocomplete-filter
+python-decouple
+gunicorn>=21.2
+psycopg2-binary==2.9.10

@@ -3,7 +3,7 @@ disorders = [
         ('Trastorno Depresivo Mayor', '6A70'),
         ('Trastorno Bipolar I', '6A60'),
         ('Trastorno Bipolar II', '6A61'),
-        ('Trastorno Ciclotímico', '6A62'),
+        ('Trastorno Ciclotímico'    , '6A62'),
         
         # Trastornos de ansiedad
         ('Trastorno de Ansiedad Generalizada', '6B00'),
